@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Table from './Table';
 
-function TransactionManager() {
+function Home() {
   const [transactions, setTransactions] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -60,4 +60,4 @@ function TransactionManager() {
   );
 }
 
-export default TransactionManager;
+export default Home
