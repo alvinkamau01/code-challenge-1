@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#btn{
+  padding: auto;
+  margin-top: 30px;
+  margin-bottom:30px;
+}
+
+.search-bar{
+  padding: auto;
+  margin-top: 30px;
+  margin-bottom:30px;
+}
+
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bot-collection, .your-bot-army {
+  width: 45%;
+}
+
+.bot-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bot-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.your-bot-army .bot-card button {
+  margin-top: 10px;
+}
